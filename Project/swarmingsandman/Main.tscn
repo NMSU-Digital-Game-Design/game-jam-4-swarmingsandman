@@ -1,0 +1,132 @@
+[gd_scene load_steps=9 format=3 uid="uid://o2pkcjym2wxx"]
+
+[ext_resource type="Script" uid="uid://den8ryj34fuc3" path="res://main.gd" id="1_fos0i"]
+[ext_resource type="Texture2D" uid="uid://cnpq87i47whnv" path="res://Ground/Grass with leaves and flowers .png" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://dxbaohehye2rh" path="res://player.tscn" id="2_r0du0"]
+[ext_resource type="Script" uid="uid://by20t3h3ipkan" path="res://enemy_spawner.gd" id="3_r0du0"]
+[ext_resource type="PackedScene" uid="uid://dft8e5mk0ytep" path="res://Enemy.tscn" id="4_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://b5vaap27oelrx" path="res://ExploderEnemy.tscn" id="6_3dxm6"]
+[ext_resource type="PackedScene" uid="uid://btrohl4s3ayst" path="res://ThrowerEnemy.tscn" id="7_lgr22"]
+[ext_resource type="Script" uid="uid://cs1ym6hukxa1l" path="res://xp_manager.gd" id="8_trn2v"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_fos0i")
+
+[node name="Ground" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(4665, 3746)
+rotation = 0.00485517
+scale = Vector2(703.178, 539.62)
+texture = ExtResource("1_uu6xs")
+
+[node name="Player" parent="." instance=ExtResource("2_r0du0")]
+position = Vector2(665, 434)
+
+[node name="EnemySpawner" type="Node2D" parent="."]
+script = ExtResource("3_r0du0")
+basic_enemy_scene = ExtResource("4_cm0pq")
+exploder_enemy_scene = ExtResource("6_3dxm6")
+thrower_enemy_scene = ExtResource("7_lgr22")
+
+[node name="XPManager" type="Node" parent="."]
+script = ExtResource("8_trn2v")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="KillLabel" type="Label" parent="UI"]
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 109.0
+offset_bottom = 51.0
+theme_override_font_sizes/font_size = 40
+text = "Kills: 0"
+
+[node name="healthLabel" type="Label" parent="UI"]
+offset_left = 3.0
+offset_top = 66.0
+offset_right = 102.0
+offset_bottom = 121.0
+theme_override_font_sizes/font_size = 40
+text = "HP: 0"
+
+[node name="UpgradeLabel" type="Label" parent="UI"]
+offset_left = 1.0
+offset_top = 207.0
+offset_right = 41.0
+offset_bottom = 256.0
+theme_override_font_sizes/font_size = 50
+
+[node name="XpLabel" type="Label" parent="UI"]
+offset_left = 535.0
+offset_top = 5.0
+offset_right = 996.0
+offset_bottom = 88.0
+rotation = 0.00523466
+theme_override_font_sizes/font_size = 40
+text = "XP: 0 / 100  Lv: 1"
+
+[node name="WeaponStatsLabel" type="Label" parent="UI"]
+offset_left = 4.0
+offset_top = 140.0
+offset_right = 744.0
+offset_bottom = 189.0
+theme_override_font_sizes/font_size = 35
+text = "Pistol K:0 L:1 | Shotgun K:0 L:1 | Rifle K:0 L:1"
+
+[node name="WeaponLabel" type="Label" parent="UI"]
+offset_left = 420.0
+offset_top = 55.0
+offset_right = 946.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 40
+text = "Pistol: 0  Shotgun: 0  Rifle: 0"
+
+[node name="SwarmLabel" type="Label" parent="UI"]
+offset_left = 3.0
+offset_top = 274.0
+offset_right = 43.0
+offset_bottom = 324.0
+theme_override_font_sizes/font_size = 36
+
+[node name="StartMenu" type="Control" parent="UI"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="UI/StartMenu"]
+layout_mode = 0
+offset_right = 1407.0
+offset_bottom = 937.0
+color = Color(0.206914, 0.206914, 0.206914, 1)
+
+[node name="TittleLabel" type="Label" parent="UI/StartMenu"]
+layout_mode = 0
+offset_left = 515.0
+offset_top = 156.0
+offset_right = 637.0
+offset_bottom = 182.0
+text = "Desert Swarm"
+uppercase = true
+
+[node name="InfoLabel" type="Label" parent="UI/StartMenu"]
+layout_mode = 0
+offset_left = 447.0
+offset_top = 225.0
+offset_right = 1311.0
+offset_bottom = 300.0
+rotation = 0.00207795
+text = "WASD to move, Mouse to aim, space to shoot. 
+after unlocking all weapons your allowed to 
+switch between them"
+
+[node name="StartButton" type="Button" parent="UI/StartMenu"]
+layout_mode = 0
+offset_left = 557.0
+offset_top = 363.0
+offset_right = 603.0
+offset_bottom = 394.0
+text = "Start"
+
+[connection signal="pressed" from="UI/StartMenu/StartButton" to="." method="_on_start_button_pressed"]
