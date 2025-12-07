@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4n0neihowimd"
-path="res://.godot/imported/TNT_Red.png-a3b6d9d374b45159148d98d3d0b70762.ctex"
+path="res://.godot/imported/TNT_Red.png-a296154e2239ae3a34b7d4ab5638d7de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/EnemyTroops/TNT/Red/TNT_Red.png"
-dest_files=["res://.godot/imported/TNT_Red.png-a3b6d9d374b45159148d98d3d0b70762.ctex"]
+source_file="res://Player_monsterAssets/EnemyTroops/TNT/Red/TNT_Red.png"
+dest_files=["res://.godot/imported/TNT_Red.png-a296154e2239ae3a34b7d4ab5638d7de.ctex"]
 
 [params]
 

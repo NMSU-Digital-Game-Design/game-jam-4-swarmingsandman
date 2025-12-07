@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://btrohl4s3ayst"]
 
 [ext_resource type="Script" uid="uid://eka2h6defaqy" path="res://thrower_enemy.gd" id="1_oafbe"]
-[ext_resource type="Texture2D" uid="uid://d4n0neihowimd" path="res://Player:monsterAssets/EnemyTroops/TNT/Red/TNT_Red.png" id="1_oeng5"]
+[ext_resource type="Texture2D" uid="uid://d4n0neihowimd" path="res://Player_monsterAssets/EnemyTroops/TNT/Red/TNT_Red.png" id="1_oeng5"]
 [ext_resource type="PackedScene" uid="uid://xdtet16rm1xj" path="res://Dynamite.tscn" id="2_cleck"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2sebk"]

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brcsfbwvj2w1"
-path="res://.godot/imported/TNT_Red.png-c44a41fa59865669107cb5a09d707300.ctex"
+path="res://.godot/imported/TNT_Red.png-9f7edbdaa3850ff98714429b9528f092.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/Projectiles/TNT_Red.png"
-dest_files=["res://.godot/imported/TNT_Red.png-c44a41fa59865669107cb5a09d707300.ctex"]
+source_file="res://Player_monsterAssets/Projectiles/TNT_Red.png"
+dest_files=["res://.godot/imported/TNT_Red.png-9f7edbdaa3850ff98714429b9528f092.ctex"]
 
 [params]
 

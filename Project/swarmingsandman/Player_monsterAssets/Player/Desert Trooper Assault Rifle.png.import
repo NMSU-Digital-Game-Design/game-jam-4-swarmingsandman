@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcl2qy2xjsms6"
-path="res://.godot/imported/Desert Trooper Assault Rifle.png-749565e01c59dc757c1c2b3d6a78a835.ctex"
+path="res://.godot/imported/Desert Trooper Assault Rifle.png-8d2f8069677c108aded6f56479997d98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/Player/Desert Trooper Assault Rifle.png"
-dest_files=["res://.godot/imported/Desert Trooper Assault Rifle.png-749565e01c59dc757c1c2b3d6a78a835.ctex"]
+source_file="res://Player_monsterAssets/Player/Desert Trooper Assault Rifle.png"
+dest_files=["res://.godot/imported/Desert Trooper Assault Rifle.png-8d2f8069677c108aded6f56479997d98.ctex"]
 
 [params]
 

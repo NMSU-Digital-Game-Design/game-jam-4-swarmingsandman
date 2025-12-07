@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chehmybhtlu1y"
-path="res://.godot/imported/Barrel_Blue.png-8ebd8ce6267b77c80c23e0b507191a16.ctex"
+path="res://.godot/imported/Barrel_Blue.png-aec8bb9077d097f5471e4e62f4719e6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/EnemyTroops/Barrel/Blue/Barrel_Blue.png"
-dest_files=["res://.godot/imported/Barrel_Blue.png-8ebd8ce6267b77c80c23e0b507191a16.ctex"]
+source_file="res://Player_monsterAssets/EnemyTroops/Barrel/Blue/Barrel_Blue.png"
+dest_files=["res://.godot/imported/Barrel_Blue.png-aec8bb9077d097f5471e4e62f4719e6c.ctex"]
 
 [params]
 

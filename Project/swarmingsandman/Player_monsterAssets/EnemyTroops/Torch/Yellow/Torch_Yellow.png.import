@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cejvyl5hvfnko"
-path="res://.godot/imported/Torch_Yellow.png-d19add085946d913362e63ae8d832ec8.ctex"
+path="res://.godot/imported/Torch_Yellow.png-cd488c35c76ec702a7df84cfc04eca35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/EnemyTroops/Torch/Yellow/Torch_Yellow.png"
-dest_files=["res://.godot/imported/Torch_Yellow.png-d19add085946d913362e63ae8d832ec8.ctex"]
+source_file="res://Player_monsterAssets/EnemyTroops/Torch/Yellow/Torch_Yellow.png"
+dest_files=["res://.godot/imported/Torch_Yellow.png-cd488c35c76ec702a7df84cfc04eca35.ctex"]
 
 [params]
 

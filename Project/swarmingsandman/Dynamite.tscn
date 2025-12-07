@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://xdtet16rm1xj"]
 
 [ext_resource type="Script" uid="uid://baa4rmhtv6iix" path="res://dynamite.gd" id="1_2sebk"]
-[ext_resource type="Texture2D" uid="uid://brcsfbwvj2w1" path="res://Player:monsterAssets/Projectiles/TNT_Red.png" id="1_gwx8y"]
+[ext_resource type="Texture2D" uid="uid://brcsfbwvj2w1" path="res://Player_monsterAssets/Projectiles/TNT_Red.png" id="1_gwx8y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2sebk"]
 size = Vector2(13, 37)

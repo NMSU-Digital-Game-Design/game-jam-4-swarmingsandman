@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cthdql0e3l4cr"
-path="res://.godot/imported/Dynamite.png-fab4a5f613b1180bfdb67b27d0f91962.ctex"
+path="res://.godot/imported/Dynamite.png-ecad6aa359e99da72d734008ca815353.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/EnemyTroops/TNT/Dynamite/Dynamite.png"
-dest_files=["res://.godot/imported/Dynamite.png-fab4a5f613b1180bfdb67b27d0f91962.ctex"]
+source_file="res://Player_monsterAssets/EnemyTroops/TNT/Dynamite/Dynamite.png"
+dest_files=["res://.godot/imported/Dynamite.png-ecad6aa359e99da72d734008ca815353.ctex"]
 
 [params]
 

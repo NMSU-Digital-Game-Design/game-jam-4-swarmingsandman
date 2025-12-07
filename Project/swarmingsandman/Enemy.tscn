@@ -1,7 +1,7 @@
 [gd_scene load_steps=24 format=3 uid="uid://dft8e5mk0ytep"]
 
 [ext_resource type="Script" uid="uid://c6gah03l4mre5" path="res://enemy.gd" id="1_s7bn3"]
-[ext_resource type="Texture2D" uid="uid://d07fg6q2qchoo" path="res://Player:monsterAssets/EnemyTroops/Torch/Red/Torch_Red.png" id="1_tt7e2"]
+[ext_resource type="Texture2D" uid="uid://d07fg6q2qchoo" path="res://Player_monsterAssets/EnemyTroops/Torch/Red/Torch_Red.png" id="1_tt7e2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s7bn3"]
 atlas = ExtResource("1_tt7e2")

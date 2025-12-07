@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://17xxvi5pgnqe"
-path="res://.godot/imported/bullet1_strip.png-81267ff8e148cd23cded7513c54f875c.ctex"
+path="res://.godot/imported/bullet1_strip.png-c0b1e747cc1a7bd33cd4f14480fc6da4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/Projectiles/bullet1_strip.png"
-dest_files=["res://.godot/imported/bullet1_strip.png-81267ff8e148cd23cded7513c54f875c.ctex"]
+source_file="res://Player_monsterAssets/Projectiles/bullet1_strip.png"
+dest_files=["res://.godot/imported/bullet1_strip.png-c0b1e747cc1a7bd33cd4f14480fc6da4.ctex"]
 
 [params]
 

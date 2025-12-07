@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm2c51sw56kio"
-path="res://.godot/imported/Desert Trooper Default Template.png-0d9c2c41d90f5917172e23da426e6655.ctex"
+path="res://.godot/imported/Desert Trooper Default Template.png-50be73d8880544334a00385cf4cbe938.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/Player/Desert Trooper Default Template.png"
-dest_files=["res://.godot/imported/Desert Trooper Default Template.png-0d9c2c41d90f5917172e23da426e6655.ctex"]
+source_file="res://Player_monsterAssets/Player/Desert Trooper Default Template.png"
+dest_files=["res://.godot/imported/Desert Trooper Default Template.png-50be73d8880544334a00385cf4cbe938.ctex"]
 
 [params]
 

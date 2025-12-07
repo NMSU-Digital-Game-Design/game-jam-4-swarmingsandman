@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj4587c3asm8g"
-path="res://.godot/imported/necrobolt1_strip.png-65c460229b665ec8a34893e097a17df5.ctex"
+path="res://.godot/imported/necrobolt1_strip.png-22c75f9d3e8ccab1ecea30f06d30a6a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player:monsterAssets/Projectiles/necrobolt1_strip.png"
-dest_files=["res://.godot/imported/necrobolt1_strip.png-65c460229b665ec8a34893e097a17df5.ctex"]
+source_file="res://Player_monsterAssets/Projectiles/necrobolt1_strip.png"
+dest_files=["res://.godot/imported/necrobolt1_strip.png-22c75f9d3e8ccab1ecea30f06d30a6a0.ctex"]
 
 [params]
 

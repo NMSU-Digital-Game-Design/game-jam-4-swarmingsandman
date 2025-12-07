@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://b5vaap27oelrx"]
 
 [ext_resource type="Script" uid="uid://dgwe10v7j1ak5" path="res://exploder_enemy.gd" id="1_3i8rm"]
-[ext_resource type="Texture2D" uid="uid://cge4bi7thl8og" path="res://Player:monsterAssets/EnemyTroops/Barrel/Red/Barrel_Red.png" id="2_3i8rm"]
+[ext_resource type="Texture2D" uid="uid://cge4bi7thl8og" path="res://Player_monsterAssets/EnemyTroops/Barrel/Red/Barrel_Red.png" id="2_3i8rm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bq104"]
 atlas = ExtResource("2_3i8rm")

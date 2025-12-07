@@ -38,6 +38,25 @@ var weapon_level: int = 1
 @export var bullet_scene: PackedScene
 @onready var muzzle: Marker2D = $Muzzle
 
+# ---------- AUDIO ----------
+@onready var audio_pistol: AudioStreamPlayer2D = $Audio_Pistol
+@onready var audio_shotgun: AudioStreamPlayer2D = $Audio_Shotgun
+@onready var audio_rifle: AudioStreamPlayer2D = $Audio_Assault
+
+func play_gun_sound() -> void:
+	match weapon_type:
+		WeaponType.PISTOL:
+			audio_pistol.pitch_scale = randf_range(0.95, 1.05)
+			audio_pistol.play()
+
+		WeaponType.SHOTGUN:
+			audio_shotgun.pitch_scale = randf_range(0.95, 1.05)
+			audio_shotgun.play()
+
+		WeaponType.RIFLE:
+			audio_rifle.pitch_scale = randf_range(0.95, 1.05)
+			audio_rifle.play()
+
 # ---------- HEALTH ----------
 @export var max_health: int = 10
 var health: int
@@ -114,6 +133,8 @@ func _handle_shooting(delta: float) -> void:
 
 	if Input.is_action_pressed("shoot") and time_since_shot >= current_cooldown:
 		time_since_shot = 0.0
+		
+		play_gun_sound()
 
 		match weapon_type:
 			WeaponType.PISTOL:

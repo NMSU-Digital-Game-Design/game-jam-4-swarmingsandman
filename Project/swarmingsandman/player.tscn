@@ -1,10 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://dxbaohehye2rh"]
+[gd_scene load_steps=10 format=3 uid="uid://dxbaohehye2rh"]
 
-[ext_resource type="Texture2D" uid="uid://k8v71eki1k8a" path="res://Player:monsterAssets/Player/Desert Trooper Pistol.png" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://k8v71eki1k8a" path="res://Player_monsterAssets/Player/Desert Trooper Pistol.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://ks8lmjdavcp" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="PackedScene" uid="uid://rpigj2p42vh3" path="res://Bullet.tscn" id="3_i3pqv"]
-[ext_resource type="Texture2D" uid="uid://ddb8erep4gjxo" path="res://Player:monsterAssets/Player/Desert Trooper Shotgun.png" id="4_sweqy"]
-[ext_resource type="Texture2D" uid="uid://dcl2qy2xjsms6" path="res://Player:monsterAssets/Player/Desert Trooper Assault Rifle.png" id="5_2hs0m"]
+[ext_resource type="Texture2D" uid="uid://ddb8erep4gjxo" path="res://Player_monsterAssets/Player/Desert Trooper Shotgun.png" id="4_sweqy"]
+[ext_resource type="Texture2D" uid="uid://dcl2qy2xjsms6" path="res://Player_monsterAssets/Player/Desert Trooper Assault Rifle.png" id="5_2hs0m"]
+[ext_resource type="AudioStream" uid="uid://7xmpvehjaes7" path="res://Audio/PistolShot.wav" id="6_dw050"]
+[ext_resource type="AudioStream" uid="uid://b0dxvrr6y458h" path="res://Audio/ShotgunShot.wav" id="7_b26j0"]
+[ext_resource type="AudioStream" uid="uid://udpwmtcaf1f6" path="res://Audio/AssaultRifleShot.wav" id="8_n7ghd"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_onrkg"]
 radius = 31.0
@@ -32,3 +35,12 @@ shape = SubResource("CapsuleShape2D_onrkg")
 
 [node name="Muzzle" type="Marker2D" parent="."]
 position = Vector2(98, 7)
+
+[node name="Audio_Pistol" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_dw050")
+
+[node name="Audio_Shotgun" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_b26j0")
+
+[node name="Audio_Assault" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_n7ghd")
